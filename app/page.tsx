@@ -205,7 +205,7 @@ export default function Home() {
                 </ul>
               )}
 
-              <h2 className="mb-2 mt-6 font-semibold">Instructions</h2>
+              <h2 className="mb-2 mt-6 font-semibold">Directions</h2>
               {selectedMod ? (
                 <DiffList original={recipe.original.instructions} modified={selectedMod.modifiedInstructions} />
               ) : (
